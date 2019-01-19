@@ -6,7 +6,7 @@
 docker build -t simpleweb .
 
 ### Then the next command to run on port 9080 on your machine. I could not use 8080 on my local mahine
-### The first port is your local port and the sencond is the docker container port. You could change the first port to whatever works for your machine
+### The first port is your local port and the second is the docker container port. You could change the first port to whatever works for your machine
 
 docker run -p 9080:8080 simpleweb
 
